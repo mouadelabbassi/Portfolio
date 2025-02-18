@@ -1,0 +1,86 @@
+body{
+    background-color: white ;
+    font-family:'Montserrat',sans-serif;
+}
+.nm{
+    color: #007d8b;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+.nm1{
+    color: #4a4a4a;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+hr{
+    margin-top: 30px;
+    border: 1px solid #007d8b;
+    width: 660px;
+}
+
+.gmail{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'Montserrat',sans-serif ;
+    color: #4a4a4a
+}
+
+.summary{
+    margin: 90px 450px;
+}
+.sm{
+    color: #007d8b;
+    margin-bottom: 10px;
+}
+.sum{
+    color: #4a4a4a;
+    margin-left: 50px;
+    
+}
+.resume-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-left: 50px;
+
+}
+
+.job-title {
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.date {
+    color: #007d8b;
+}
+
+.job-desc{
+    color: #4a4a4a;
+    margin-left: 50px;
+}
+
+.skl{
+    color: #4a4a4a;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+a{
+    margin-top: 70px;
+    text-decoration: none;
+    color: #007d8b;
+    font-size: 40px;
+    padding: 20px;
+}
