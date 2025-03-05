@@ -4,97 +4,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="head">
-        <center>
-        <table>
-            <tr>
-                <td>
-                    <img src="img.jpg" alt="">
-                </td>
-                <td>
-                    <p class="nm">MOAD EL ABBASSI</p>
-                    <p class="nm1"><em>Engineer Student</em></p>
-                </td>
-            </tr>
-        </table>
-            <hr>
-            <p class="gmail">
-                <i class="fas fa-envelope"></i> elabbassimouaad0@gmail.com |
-                <i class="fas fa-phone"></i> +212635-737656 |
-                <i class="fas fa-map-marker-alt"></i> Hay Yasmina 3, Ainchok, Casablanca.
-            </p>
-        </center>
-        
-    </div>
-    <div class="summary">
-        <h3 class="sm">PROFILE SUMMARY</h3>
-        <p class="sum">As an engineering student at the National School of Applied Sciences of Khouribga, I am
-            currently seeking
-            a PFA internship. I have acquired multiple interpersonal skills related to customer service and
-            teamwork.
-            Through my experiences and competencies, I aim to bring added value to your company with my human
-            and professional qualities while also learning more about my specialty and integrating more quickly into
-            the professional world.
-        </p>
-        <h3 class="sm">WORK EXPERIENCE</h3>
-        <div class="resume-entry">
-            <div class="job-title">EQUIPIER | McDonald's</div>
-            <div class="date">06/2023 - 10/2023</div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Mouad El Abbassi</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">Profile Summuary</a></li>
+                    <li><a href="#projects">Work Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
         </div>
-        <ul class="job-desc">
-            <li>Develop my responsiveness and my ability to work effectively in a team in a dynamic environment.
-            </li>
-            <li> Communicate well with customers and work as a team under pressure.</li>
-        </ul>
-        <h3 class="sm">EDUCATION</h3>
-        <div class="resume-entry">
-            <div class="job-title">NATIONAL SCHOOL OF APPLIED SCIENCE OF KHOURIBGA</div>
-            <div class="date">2022 - 2027</div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Mouad El Abbassi</span></h1>
+                <h2>Engineer Student</h2>
+                <div class="social-icons">
+                    <a href="https://github.com/mouadelabbassi" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mouad-el-abbassi-57580b251/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/mouadelabbassi2" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img.jpg" alt="Profile picture">
+            </div>
         </div>
-        <ul class="job-desc">
-            <li>Diploma in Computer Science and Data Engineering.</li>
-        </ul>
-        <div class="resume-entry">
-            <div class="job-title">LYCEE AL HIDAYA</div>
-            <div class="date">2021 - 2022</div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Profile Summuary</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>As an engineering student at the National School of
+                        Applied Sciences of Khouribga, I am currently seeking a PFA internship.
+                        I have acquired multiple interpersonal skills related to customer service andteamwork.
+                        Through my experiences and competencies, I aim to bring added value to your company with my
+                        human and professional
+                        qualities while also learning more about my specialty and integrating more quickly into the
+                        professional world.</p>
+                    <a href="cv.pdf" target="_blank" class="btn primary-btn">Download CV</a>
+                </div>
+            </div>
         </div>
-        <ul class="job-desc">
-            <li>Bachelor of Experimental Sciences - Physical Sciences.</li>
-        </ul>
-        <h3 class="sm">PROFESSIONAL SKILLS</h3>
-        <ul class="skl">
-            <li>Web Developpement.</li>
-            <li>Pyhton Programming.</li>
-            <li>Team Work.</li>
-            <li>DATABASE Management.</li>
-        </ul>
-        <ul class="skl">
-            <li>DATA Visualization</li>
-            <li>Machine Learning</li>
-            <li>Problem Solving</li>
-            <li>Java Programming</li>
-        </ul>
-        <h3 class="sm">LANGUAGES</h3>
-        <ul class="skl">
-            <li>Arabic (Native) </li>
-            <li>French (Fluent)</li>
-            <li>English (Fluent)</li>
-        </ul>
-        <center>
-            <a href="https://www.linkedin.com/in/mouad-el-abbassi-57580b251/" target="_blank" alt = 'Linkedin' >
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/mouadelabbassi" target="_blank" alt = 'Github'>
-                <i class="fab fa-github"></i>
-            </a>
-    </center>
-    </div>
-</body> 
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-category="app">
+                    <div class="project-info">
+                        <h3>Waiter & Barman | Miami Juice</h3>
+                        <p>Communicate well with customers and work as a team under pressure.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <div class="project-info">
+                        <h3>Equipier | McDonald's</h3>
+                        <p>Develop my responsiveness and my ability to work effectively in a team in a dynamic environment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>HTML</h4>
+                                <p>95%</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>CSS</h4>
+                                <p>90%</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>JavaScript</h4>
+                                <p>85%</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>C</h4>
+                                <p>80%</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <p>90%</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <h4>Java</h4>
+                                <p>75%</p>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
 
 </html>
